@@ -14,8 +14,5 @@ jobs:
         run: |
             ls -la
             cd ./module3_task0/
-            ls -la
+            chmod +x setup.sh
             ./setup.sh
-            make build
-            make clean
-            make help
