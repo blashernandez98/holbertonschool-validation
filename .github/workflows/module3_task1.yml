@@ -1,7 +1,7 @@
 ---
 name: module3_task1
 on:
-  push: null
+  push:
   schedule:
     - cron: 0 0 * * *
 jobs:
@@ -23,7 +23,7 @@ jobs:
           make build
       - name: make-post
         run: |
-          make POST_NAME=who-are-we POST_TITLE="Who are we" post 
+          make POST_NAME=who-are-we POST_TITLE="Who are we" post
       - name: make-clean
         run: |
           make clean
