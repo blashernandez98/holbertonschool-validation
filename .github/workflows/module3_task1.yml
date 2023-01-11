@@ -16,3 +16,7 @@ jobs:
       - name: build
         run: |
             sudo ./setup.sh
+
+      - name: make-help
+        run: |
+            make help
