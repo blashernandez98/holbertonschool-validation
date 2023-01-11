@@ -20,3 +20,16 @@ jobs:
       - name: make-help
         run: |
             make help
+
+      - name: make-build
+        run: |
+            make build
+
+      - name: make-post
+        run: |
+            make POST_NAME=who-are-we POST_TITLE="Who are we" post
+      
+      - name: make-clean
+        run: |
+            make clean
+            ls
