@@ -4,7 +4,6 @@ on:
   push:
   schedule:
     - cron: '0 0 * * *'
-
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -16,19 +15,15 @@ jobs:
       - name: build
         run: |
             sudo ./setup.sh
-
       - name: make-help
         run: |
             make help
-
       - name: make-build
         run: |
             make build
-
       - name: make-post
         run: |
-            make POST_NAME=who-are-we POST_TITLE="Who are we" post
-      
+            make POST_NAME=who-are-we POST_TITLE="Who are we" post 
       - name: make-clean
         run: |
             make clean
