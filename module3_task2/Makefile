@@ -17,3 +17,6 @@ package: ## Implement target package
 
 lint: ## Lints markdown files
 	markdownlint -f ./*.md
+
+unit-tests: ## Runs unit tests
+	@echo "Running unit-tests"
