@@ -12,5 +12,8 @@ post: ## Creates new post
 	hugo new posts/$(POST_NAME).md
 	sed -i 's/title: .*/title: "$(POST_TITLE)"/' content/posts/$(POST_NAME).md
 
-package: ## implement target package
+package: ## Implement target package
 	zip -r awesome-website.zip ./dist/*
+
+lint: ## Lints markdown files
+	markdownlint -f README.md DEPLOY.md
