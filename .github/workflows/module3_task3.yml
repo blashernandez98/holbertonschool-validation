@@ -49,5 +49,5 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-          DEPLOY.md
-          awesome-website.zip      
+            DEPLOY.md
+            awesome-website.zip
