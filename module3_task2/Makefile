@@ -23,3 +23,6 @@ unit-tests: ## Runs unit tests
 
 integration-tests: ## Runs integration tests
 	@echo "Running integration-tests"
+
+validate: ## Runs validation tests
+	@echo "Running validation-tests"

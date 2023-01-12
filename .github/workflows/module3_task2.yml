@@ -37,6 +37,9 @@ jobs:
       - name: make integration-tests
         run: |
           make integration-tests
+      - name: make validate
+        run: |
+          make validate
       - name: make package
         run: |
           make build
