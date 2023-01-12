@@ -20,3 +20,6 @@ lint: ## Lints markdown files
 
 unit-tests: ## Runs unit tests
 	@echo "Running unit-tests"
+
+integration-tests: ## Runs integration tests
+	@echo "Running integration-tests"

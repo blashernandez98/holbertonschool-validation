@@ -34,6 +34,9 @@ jobs:
       - name: make unit-tests
         run: |
           make unit-tests
+      - name: make integration-tests
+        run: |
+          make integration-tests
       - name: make package
         run: |
           make build
