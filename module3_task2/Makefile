@@ -16,4 +16,4 @@ package: ## Implement target package
 	zip -r awesome-website.zip ./dist/*
 
 lint: ## Lints markdown files
-	markdownlint -f README.md DEPLOY.md
+	markdownlint -f ./*.md

@@ -28,6 +28,9 @@ jobs:
       - name: make-clean
         run: |
           make clean
+      - name: make-lint
+        run: |
+          make lint
       - name: make package
         run: |
           make build
