@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-18.04
     defaults:
       run:
-        working-directory: ./module3_task2
+        working-directory: ./module3_task3
     steps:
       - uses: actions/checkout@v3
       - name: build
