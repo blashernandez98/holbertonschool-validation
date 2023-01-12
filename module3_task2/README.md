@@ -11,4 +11,5 @@
 * Triggered on:
     - Code push
     - Once a day
-* Does stuff
+* Tests all make targets
+* Generates awesome-website.zip
