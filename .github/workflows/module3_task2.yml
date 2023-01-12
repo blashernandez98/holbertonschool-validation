@@ -31,8 +31,10 @@ jobs:
       - name: make-lint
         run: |
           make lint
+      - name: make unit-tests
+        run: |
+          make unit-tests
       - name: make package
         run: |
           make build
           make package
-          ls
