@@ -1,5 +1,5 @@
 ---
-name: module3_task1
+name: module3_task2
 on:
   push:
   schedule:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-18.04
     defaults:
       run:
-        working-directory: ./module3_task1
+        working-directory: ./module3_task2
     steps:
       - uses: actions/checkout@v3
       - name: build
