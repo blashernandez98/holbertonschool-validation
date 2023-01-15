@@ -17,3 +17,5 @@ jobs:
       - uses: release-drafter/release-drafter@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          commitish: master
