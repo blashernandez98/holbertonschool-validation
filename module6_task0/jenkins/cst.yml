@@ -1,0 +1,6 @@
+schemaVersion: 2.0.0
+
+fileExistenceTests:
+- name: 'ace-editor.jpi'
+  path: '/usr/share/jenkins/ref/plugins/'
+  shouldExist: true
